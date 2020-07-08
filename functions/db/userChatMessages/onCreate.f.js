@@ -11,7 +11,6 @@ const mailTransport = nodemailer.createTransport(
 )
 
 export default functions
-  .region('europe-west1')
   .database.ref('/user_chat_messages/{senderUid}/{receiverUid}/{messageUid}')
   .onCreate((eventSnapshot, context) => {
     console.log('authType', context.authType)

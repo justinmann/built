@@ -13,7 +13,6 @@ const random = (min, max) => {
 }
 
 export default functions
-  .region('europe-west1')
   .database.ref('user_grants/{uid}/{grant}')
   .onWrite(async (snap, context) => {
     const value = snap.after.val()

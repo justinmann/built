@@ -37,6 +37,7 @@ const config = {
     measurementId: "G-ZKF4YKPEG8"
   },
   firebase_config_dev: {
+
   },
   firebase_providers: [
     'google.com',
