@@ -113,7 +113,7 @@ class LandingPage extends Component {
         isDivider: true,
       },
       {
-        name: 'Anmelden',
+        name: 'Login',
         onClick: () => history.push('/signin'),
         icon: <LockIcon />,
       },

@@ -37,7 +37,14 @@ const config = {
     measurementId: "G-ZKF4YKPEG8"
   },
   firebase_config_dev: {
-
+    apiKey: "AIzaSyABMNzrcUScVLTH4GH2cHiLdOVsfEZFlbo",
+    authDomain: "built-8f8b6.firebaseapp.com",
+    databaseURL: "https://built-8f8b6.firebaseio.com",
+    projectId: "built-8f8b6",
+    storageBucket: "built-8f8b6.appspot.com",
+    messagingSenderId: "910971953299",
+    appId: "1:910971953299:web:3cb2f2825f97e64d46ed66",
+    measurementId: "G-ZKF4YKPEG8"
   },
   firebase_providers: [
     'google.com',
