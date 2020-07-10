@@ -166,6 +166,7 @@ const messages = defineMessages({
     'This website has app functionality. Add it to your home screen to use it in fullscreen and while offline.',
   ios_prompt_share_button: "1) Press the 'Share' button",
   ios_prompt_add_to_home_button: "2) Press 'Add to Home Screen'",
+  customizer: 'Customizer',
 })
 
 export default messages

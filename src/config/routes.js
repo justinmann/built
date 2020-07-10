@@ -12,6 +12,9 @@ const MyLoadable = (opts, preloadComponents) =>
 const AsyncDashboard = MyLoadable({
   loader: () => import('../pages/Dashboard'),
 })
+const AsyncCustomizer = MyLoadable({
+  loader: () => import('../pages/Customizer'),
+})
 const AsyncAbout = MyLoadable({ loader: () => import('../pages/About') })
 const AsyncCompany = MyLoadable({
   loader: () => import('../pages/Companies/Company'),
@@ -33,6 +36,12 @@ const routes = [
     path="/dashboard"
     exact
     component={AsyncDashboard}
+  />,
+  <RestrictedRoute
+    type="private"
+    path="/customizer"
+    exact
+    component={AsyncCustomizer}
   />,
   <RestrictedRoute type="private" path="/about" exact component={AsyncAbout} />,
   <RestrictedRoute
