@@ -11,7 +11,7 @@
     "firebase-functions": "^3.6.1",
     "glob": "^7.1.6",
     "mkdirp-promise": "^5.0.1",
-    "moment": "^2.25.3",
+    "moment": "^2.29.2",
     "nodemailer": "^6.4.6",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
